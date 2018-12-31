@@ -1,0 +1,23 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+long long int t;
+cin>>t;
+while(t--)
+{  float a,b,n,d;
+ float  c;
+
+    cin>>a>>b;
+    cin>>n;
+    c=b/a;
+  
+    d=a*pow(c,n-1);
+    
+    cout<<(int)d<<endl;
+    
+    
+}
+	return 0;
+}
